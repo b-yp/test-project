@@ -1,0 +1,23 @@
+{
+  "compileroptions": {
+    "target": "es2020",
+    "usedefineforclassfields": true,
+    "module": "esnext",
+    "lib": ["es2020", "dom", "dom.iterable"],
+    "skiplibcheck": true,
+
+    /* bundler mode */
+    "moduleresolution": "bundler",
+    "allowimportingtsextensions": true,
+    "resolvejsonmodule": true,
+    "isolatedmodules": true,
+    "noemit": true,
+
+    /* linting */
+    "strict": true,
+    "nounusedlocals": true,
+    "nounusedparameters": true,
+    "nofallthroughcasesinswitch": true
+  },
+  "include": ["src"]
+}
